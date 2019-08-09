@@ -1,0 +1,55 @@
+:root {
+    --yellow-c: #f0ad4e; 
+}
+
+body{
+    background: #0a0a0a;
+}
+
+.navbar{
+    background: #000;
+    padding: 0px;
+}
+
+.card {
+    color: #fff;
+    background: transparent;
+    border: 1px solid var(--yellow-c);
+    box-shadow: 1px 1px 5px 1px #f0ad4e;
+}
+
+.card-img{
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover .card-img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.list-group-item {
+    background: #212121;
+}
+
+.showcase{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.footer{
+    margin-top: 200px;
+}
+
+@media(max-width:500px){
+    .showcase{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .showcase h3{
+        font-size: 1rem;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
