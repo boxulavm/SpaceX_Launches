@@ -18,6 +18,9 @@ const Launch = props => {
                             {
                                 launch.launch_success === true ? <i className="fas fa-check text-success fa-2x"></i> : <i className="fas fa-ban text-danger fa-2x"></i>
                             }
+                        <div className="text-center">
+                        <a href={launch.links.wikipedia} target='blank' className="btn btn-outline-warning mt-5 px-5">Wikipedia</a>
+                        </div>
                     </div>
                     </div>
                 </div>
